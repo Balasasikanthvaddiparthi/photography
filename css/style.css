@@ -1,0 +1,108 @@
+.heroes {
+    position: relative; /* Ensure container has relative positioning */
+  }
+
+  .header {
+    position: absolute;
+    top: 20px; /* Adjust top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; /* Ensure header appears above the carousel */
+    background-color: rgba(0, 0, 0, 0); /* Adjust background color and opacity as needed */
+    padding: 300px 0px; /* Adjust padding as needed */
+    border-radius: 10px; /* Adjust border radius as needed */
+    color: whitesmoke !important;
+    width:80%
+  }
+.fs-4{
+    color: whitesmoke !important;
+}
+  /* styles.css */
+
+/* Style for list items */
+.nav-item {
+    color: whitesmoke !important;
+  }
+  
+  .nav-link {
+    color: whitesmoke !important;
+  }
+  
+  .nav-link:hover {
+    color: lightgray !important; /* Change color on hover */
+  }
+
+  .heroes span img {
+    vertical-align: middle; /* Align the SVG icon vertically */
+    margin-right: 10px; /* Add spacing between the icon and text */
+    width: 48px; /* Adjust width of the SVG */
+    height: 48px; /* Adjust height of the SVG */
+  }
+  .carousel-item img {
+    width: 100%; /* Make the image width 100% of the viewport */
+    height: auto; /* Maintain aspect ratio */
+  }
+   /* Specify the border bottom style 
+  .bordered-div {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px; /* Optional: Add padding to create space between content and border 
+}
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+    width: 50%; 
+    margin: auto; 
+    border: 2px solid #ccc;
+    padding: 20px;
+    color: black;
+    
+    
+
+    background-color: rgba(255, 255, 255, 0.5);
+      
+    
+    
+}*/
+.trans{
+   background-color: transparent; /* Set the parent element's background to transparent */
+    
+    
+}
+
+
+.quote-container {
+    background-color: #F0EBE3;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    /* Center the div horizontally */
+    margin: 0 auto;
+    /* Flexbox for centering text vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 250px;
+}
+
+
+.quote-container p {
+    margin: 0; /* Remove default margin */
+}
+
+.contacts{
+    text-align: center;
+
+}
+body{
+    background-color:#F6F5F2;
+}
+
+#da{
+    font-family: Georgia, serif;
+    text-align: justify;
+
+}
